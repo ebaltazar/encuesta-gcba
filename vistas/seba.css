@@ -133,13 +133,13 @@ form button{
     transition: opacity 300ms ease-in-out;
     margin-top: 30px;
 }
-
+/*
 form {
     display:flex;
     flex-direction: column;
     width: 25vw;
     margin: auto;
-}
+}*/
 
 input{
     border-radius: 20px;
@@ -147,13 +147,15 @@ input{
     padding: 17px 0px 17px 0px;
 }
 
+/*
 label{
     color: black;
     font-size: 25px;
     margin-bottom: 10px;
     padding-top: 15px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
-}
+}*/
+
 ::placeholder{
         font-size: 15px;
         color: black;
@@ -170,4 +172,37 @@ ul{
     list-style: none;
 }
 
+.container {
+    /*background-color: white;*/
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*flex-flow: col wr*/
 
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.question{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.radioAnswer{
+    margin: 10px 30%;
+}
+
+.answer{
+    flex-flow: column wrap;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px;
+    /*padding: 100px;*/
+}
+
+select {
+    width: 20%;
+}
