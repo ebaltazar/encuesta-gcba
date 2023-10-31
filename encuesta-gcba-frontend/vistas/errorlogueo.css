@@ -9,23 +9,22 @@ body {
 header {
     background-color: #ffcc00; /* Fondo amarillo */
     padding: 10px;
+    width: 100%
 }
 
 /* Estilos para el logo en el encabezado */
 .logo img {
     width: 330px;
-    height: auto;
 }
 
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 50px;
+    margin: 170px;
 }
 
 .validacion {
     width: 75px;
-    margin-top: 40px;
 }
 
 /* Estilos del mensaje de advertencia */
@@ -33,13 +32,11 @@ main {
     background-color: #ff6961; /* Color rojo suave */
     color: white;
     border: none;
-    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 20px;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 .advertencia:hover {
@@ -47,7 +44,7 @@ main {
 }
 
 button {
-    background-color: #4caf50; /* Verde */
+   background-color: #4caf50; /* Verde */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -55,7 +52,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 20px;
+    margin: 10px;
     cursor: pointer;
     border-radius: 10px; /* Bordes redondeados */
     transition: background-color 0.3s ease; /* Transición suave del color de fondo */
@@ -69,7 +66,7 @@ footer {
     background-color: #333; /* Fondo gris oscuro */
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     line-height: 30px;
 }
 
