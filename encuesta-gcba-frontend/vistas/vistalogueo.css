@@ -19,7 +19,7 @@ header {
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 50px;
+    margin: 200px;
 }
 
 h1 {
@@ -27,13 +27,8 @@ h1 {
     color: #333;
 }
 
-form {
-    margin-top: 20px;
-}
-
 label {
     display: block;
-    margin-bottom: 10px;
 }
 
 input[type="text"] {
@@ -49,14 +44,14 @@ input[type="text"] {
 button {
     width: 120px;
     height: 40px;
-    font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
+    font-size: 15px;
+    background-color: yellow;
+    color: black;
     border: none;
-    border-radius: 5px;
-    margin-top: 10px;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease; 
+    margin: 15px;
+    border-radius: 5px; /* Botones redondeados */
     .dni-btn:active {
         background-color: yellow;
         color: black;
@@ -66,17 +61,17 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: yellow;
+    transform: scale(1.01); /* Agrandar al hacer hover */
+    font-weight: bold;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     line-height: 30px;
-    position: relative;
-    width: 100%;
 }
 
 
@@ -85,10 +80,6 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-}
-
-.info, .info2 {
-    margin-bottom: 20px;
 }
 
 /* Estilos para teléfonos en el pie de página */
