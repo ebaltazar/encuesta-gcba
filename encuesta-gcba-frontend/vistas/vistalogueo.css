@@ -41,6 +41,10 @@ input[type="text"] {
     text-align: center; /* Centra el texto horizontalmente dentro del botón */
 }
 
+::placeholder {
+    color: #ccc;
+}
+
 button {
     width: 120px;
     height: 40px;
