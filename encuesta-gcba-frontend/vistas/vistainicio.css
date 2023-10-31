@@ -1,8 +1,8 @@
 /* Estilos para el cuerpo del documento */
 body {
-    margin: 0;
+    background-color: #18b596;
     font-family: Arial, sans-serif;
-    background-color: #18b596; /*#f0f0f0;*/
+    margin: 0;
 }
 
 /* Estilos para el encabezado */
@@ -14,14 +14,13 @@ header {
 
 /* Estilos para el logo en el encabezado */
 .logo img {
-    /*max-width: 330px;*/
     width: 330px;
 }
 
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 50px;
+    margin: 200px;
 }
 
 /* Estilos para el título principal */
@@ -32,19 +31,20 @@ h1 {
 
 /* Estilos para los botones */
 button {
-    background-color: #4caf50;
+    background-color: yellow;
     color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin: 10px;
-    border-radius: 20px; /* Botones redondeados */
+    border-radius: 5px; /* Botones redondeados */
     transition: all 0.3s ease;
 }
 
 button:hover {
     background-color: yellow;
     transform: scale(1.1); /* Agrandar al hacer hover */
+    font-weight: bold;
 }
 
 /* Estilos para el pie de página */
