@@ -1,16 +1,13 @@
 body {
+    background-color: #18b596; 
     font-family: Arial, sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #18b596;
 }
 
 header {
     background-color: #ffcc00;
-    padding: 10px 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%
 }
 
 .logo img {
@@ -18,9 +15,14 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     flex: 1; /* Esto asegura que ocupe el espacio restante verticalmente */
+}
+
+input
+{
+    width: 250px;
 }
 
 .container {
@@ -30,25 +32,24 @@ main {
 }
 
 .question {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: left;
+    margin: 13px;
     width: 80%;
 }
 
 .radioAnswer {
     display: flex;
-    /*flex-direction: row;*/
-    gap: 20px;
-    margin-top: 10px;
+    flex-direction: column;
+    padding: 5px;
 }
 .radioAnswer input[type="radio"] {
-    appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border: 2px solid #FFFF00; 
     border-radius: 50%;
     cursor: pointer;
-    outline: none;
+    outline: none; /* appearance: none; */
 }
 
 .radioAnswer input[type="radio"]:checked {
@@ -57,13 +58,9 @@ main {
 }
 
 
-
-
-
-
-.select {
+select {
     margin-top: 10px;
-    width: 100%;
+    width: 400px;
 }
 
 .btn-primary {
@@ -80,7 +77,9 @@ main {
 }
 
 .btn-primary:hover {
-    background-color: #218838;
+    background-color: yellow;
+    transform: scale(1.01); /* Agrandar al hacer hover */
+    font-weight: bold;
 }
 
 /* Estilos para el pie de página */
@@ -115,5 +114,4 @@ footer {
     max-width: 40px;
     margin: 10px;
 }
-
 
