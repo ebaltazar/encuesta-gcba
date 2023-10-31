@@ -19,7 +19,7 @@ header {
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 50px;
+    margin: 170px;
 }
 
 .validacion {
@@ -29,10 +29,10 @@ main {
 }
 
 .success-button {
-    background-color: yellow;
-    color: black;
+    background-color: #4caf50;
+    color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
