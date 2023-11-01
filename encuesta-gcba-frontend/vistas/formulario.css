@@ -115,3 +115,13 @@ footer {
     margin: 10px;
 }
 
+.question::after {
+    content: "";
+    display: block;
+    border-top: 4px solid rgb(29, 171, 29); /* Color y grosor de la línea horizontal */
+    margin-top: 30px; /* Espaciado vertical entre la línea y la pregunta */
+}
+.question label strong {
+    font-weight: bold; /* Establece el texto de las preguntas en negrita */
+}
+
