@@ -1,3 +1,12 @@
+
+.container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
 /* Estilos para el cuerpo del documento */
 body {
     background-color: #ffffff;
@@ -9,26 +18,45 @@ body {
 header {
     background-color: #ffcc00;
     padding: 10px;
-    width: 100%
+    /*width: 100%;*/
+    
 }
+
 
 /* Estilos para el logo en el encabezado */
 .logo img {
     width: 330px;
+    
 }
 
 /* Estilos para el contenido principal */
 main {
-    text-align: center;
-    margin: 200px;
+    
+    margin: 20px;*/
+    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 /* Estilos para el título principal */
 h1 {
+    margin-top: 20;
     font-size: 24px;
     color: #333;
 }
 
+.item1{
+    align-items: start;
+}
+.item2{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
 /* Estilos para los botones */
 button {
     background-color: yellow;
@@ -78,4 +106,15 @@ footer {
 .redes img {
     max-width: 40px;
     margin: 10px;
+}
+
+/* Estilos para pantallas más pequeñas (menores de 338px de ancho) */
+@media (max-width: 337px) {
+    .item1 {
+        display: none; /* Ocultar .item1 en pantallas pequeñas */
+    }
+
+    .item2 {
+        margin-bottom: 20px; /* Reduce el margen inferior de .item2 en pantallas pequeñas */
+    }
 }
