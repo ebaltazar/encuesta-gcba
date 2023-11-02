@@ -30,6 +30,13 @@ input
     flex-direction: column;
     align-items: center;
 }
+.item1{
+    align-items:flex-end;
+    background-color: rgb(225, 221, 221);
+    font-size: 12px;
+    padding: 2px;
+    
+}
 
 .question {
     margin-bottom: 25px;
