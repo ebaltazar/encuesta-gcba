@@ -21,6 +21,13 @@ header {
     /*width: 100%;*/
     
 }
+.item1{
+    align-items:flex-start;
+    background-color: rgb(225, 221, 221);
+    padding:1px;
+    font-size: 14px;
+    
+}
 
 
 /* Estilos para el logo en el encabezado */
