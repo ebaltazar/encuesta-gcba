@@ -34,8 +34,18 @@ main {
     
 }
 
+.item1{
+    
+    background-color: rgb(225, 221, 221);
+    font-size: 14px;
+    padding: 2px;
+    margin-top: 20px;
+    
+}
+h2{margin-top: 100px;}
+
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     color: #333;
 }
 
