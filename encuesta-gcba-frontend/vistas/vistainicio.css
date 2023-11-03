@@ -39,13 +39,8 @@ header {
 /* Estilos para el contenido principal */
 main {
     
-    margin: 20px;*/
-    
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+   text-align:center;
+    flex: 1;
 }
 
 /* Estilos para el título principal */
@@ -89,6 +84,7 @@ footer {
     text-align: center;
     padding: 20px;
     line-height: 30px;
+    
 }
 
 /* Estilos para los enlaces en el pie de página */
