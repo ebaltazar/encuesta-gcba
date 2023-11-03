@@ -30,9 +30,9 @@ main {
 .item1{
     
     background-color: rgb(225, 221, 221);
-    padding:1px;
+    font-size: 12px;
+    padding: 2px;
     margin-top: 20px;
-    
     
 }
 /* Estilos del mensaje de advertencia */
@@ -76,6 +76,7 @@ footer {
     text-align: center;
     padding: 20px;
     line-height: 30px;
+    margin-top: 20px;
 }
 
 /* Estilos para los enlaces en el footer */
