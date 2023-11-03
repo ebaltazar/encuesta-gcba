@@ -20,13 +20,21 @@ header {
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 170px;
+    
 }
 
 .validacion {
     width: 75px;
 }
 
+.item1{
+    
+    background-color: rgb(225, 221, 221);
+    padding:1px;
+    margin-top: 20px;
+    
+    
+}
 /* Estilos del mensaje de advertencia */
 .advertencia {
     background-color: #ff6961; /* Color rojo suave */
