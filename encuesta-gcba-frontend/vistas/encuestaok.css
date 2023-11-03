@@ -19,7 +19,7 @@ header {
 /* Estilos para el contenido principal */
 main {
     text-align: center;
-    margin: 170px;
+    
 }
 
 button {
@@ -47,6 +47,18 @@ button:hover {
     margin-bottom: 20px;
 }
 
+.item1{
+    
+    background-color: rgb(225, 221, 221);
+    padding:1px;
+    margin-top: 20px;
+    
+    
+}
+.item1 h1{
+    font-size: 20px;
+}
+
 .success-button {
     background-color: #4caf50;
     color: white;
@@ -69,6 +81,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     line-height: 30px;
+     margin-top: 25px;
 }
 
 /* Estilos para los enlaces en el footer */
