@@ -26,18 +26,21 @@
 			</div>
 
 		
-            <h1>Complete el siguiente campo para realizar la encuesta</h1>
+            
 
 		<div class="formulario">
+			<h1>Complete el siguiente campo para realizar la encuesta</h1>
 
-			</div><form>
+			<form>
 				<label>
 					Ingrese su DNI
 				</label>
-				<input type="text" placeholder="DNI" maxlength="8" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+				<div class="item2">
+
+					<input type="text" placeholder="DNI" maxlength="8" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
             
-			<button onclick="location.href='formulario.html'">VERIFICAR</button>
-            
+					<button onclick="location.href='formulario.html'">VERIFICAR</button>
+				</div>
 
         
 
@@ -90,7 +93,7 @@
 		</div>
 		 <p> 2023 Tu Compañía. Todos los derechos reservados.</p>
 	</footer>
-</div>
+	</div>
 </body>
 
 </html>
