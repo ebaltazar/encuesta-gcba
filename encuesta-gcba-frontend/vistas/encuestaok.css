@@ -13,7 +13,7 @@ header {
 /* Estilos para el logo en el encabezado */
 .logo img {
     width: 330px;
-    height: auto;
+    /*height: auto;*/
 }
 
 /* Estilos para el contenido principal */
@@ -51,12 +51,13 @@ button:hover {
     
     background-color: rgb(225, 221, 221);
     padding:1px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    font-size: 14px;
     
     
 }
 .item1 h1{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .success-button {
