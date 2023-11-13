@@ -89,7 +89,9 @@ select {
     font-size: 18px;
     margin-top: 20px;
     transition: background-color 0.3s;
-    width: 100%;
+    /*width: 100%;*/
+    width: 120px;
+    height: 40px;
 }
 
 .btn-primary:hover {
